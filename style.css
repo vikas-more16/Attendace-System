@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.main-container{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+h2{
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.qr-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.qr{
+    background-image: url("qrcode_vikas-more16.github.io.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+

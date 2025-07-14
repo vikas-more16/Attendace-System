@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="main-container">
+    <h2>Class Attendance System</h2>
+
+    <div class="form-container">
+        <form  id="form" action="server.php"  method="post">
+        <select name="Class" id="Class">
+            <option value="" disabled selected hidden>Class...</option>
+            <option value="1r">1R</option>
+            <option value="2r">2R</option>
+            <option value="3r">3R</option>
+            <option value="4r">4R</option>
+        </select>
+        <select name="Subject" id="Subject">
+            <option value="" disabled selected hidden>Subject...</option>
+            <option value="os">OS</option>
+            <option value="toc">TOC</option>
+            <option value="ai">AI</option>
+            <option value="malp">M&ALP</option>
+            <option value="dcn">DCN</option>
+            <option value="dcnlab">DCN LAB</option>
+            <option value="oslab">OS LAB</option>
+            <option value="malplab">M&ALP LAB</option>
+            <option value="cskilllab">CSKILL LAB</option>
+        </select>
+        <input type="date" name="date" id="date" placeholder="Date">
+        <button type="submit" id ="open-qr-btn" name="submit">Generate QR</button>
+        </form>   
+    </div>
+
+
+</div>
+        <script src="script.js"></script>
+</body>
+
