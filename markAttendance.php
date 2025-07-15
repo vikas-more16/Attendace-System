@@ -18,11 +18,11 @@ if (!$databaseName || !$subjectTable || !$dateColumn) {
     die("<h3 style='color: red;'>❌ Error: Session expired! Please try again.</h3>");
 }
 
-// ✅ Database connection
-$serverName = "sql311.infinityfree.com";
-$userName = "if0_39468667";
-$password = "8805Vikas332261";
-$DATABASE  = "if0_39468667_attendance";
+//Write your database connection details here
+$serverName = "";
+$userName = "";
+$password = "";
+$DATABASE  = "";
 $conn = new mysqli($serverName, $userName, $password, $DATABASE);
 
 if ($conn->connect_error) {
